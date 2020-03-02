@@ -6,4 +6,7 @@
   become: true
   
   roles:
+    - common
+    - apache-php
+    - agora
     - aws-configs
