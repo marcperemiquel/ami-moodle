@@ -1,0 +1,9 @@
+---
+
+- name: Local Agora Moodle playbook
+  hosts: local
+  connection: local
+  become: true
+  
+  roles:
+    - aws-configs

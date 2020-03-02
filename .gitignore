@@ -1,4 +1,7 @@
+*.log
 *-manifest.json
 /roles/agora
 /roles/apache-php
+/roles/aws-configs
 /roles/common
+.vagrant/
