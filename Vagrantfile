@@ -15,11 +15,6 @@ Vagrant.configure(2) do |config|
     ansible.limit = 'all'
     ansible.inventory_path = 'hosts'
     ansible.playbook = 'playbook-local.yml'
-    ansible.extra_vars = {
-      tags: 'common,moodle'
-    }
-    ansible.galaxy_role_file = 'roles/requirements.yml'
-    ansible.galaxy_roles_path = "roles/"
   end
 
 end

@@ -31,13 +31,6 @@
     {
       "type": "ansible",
       "playbook_file": "ansible-playbook.yml",
-      "extra_arguments": [
-        "--tags", 
-        "common,moodle"
-      ],
-      "galaxy_file": "roles/requirements.yml",
-      "galaxy_force_install": true,
-      "roles_path": "roles/"
     }
   ],
 
